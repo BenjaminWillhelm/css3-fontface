@@ -1,0 +1,54 @@
+/* 1 */
+article em { 
+  background-color: cyan;
+}
+
+/* 2 */
+.main_nav ul:first-child {
+  color: green;
+}
+/* 3 */
+article + p {
+  color: blue;
+} 
+/* 4 */
+p[title="textsnutt"] {
+  color: #ff3300;
+}
+/* 5 */
+p[title="viktig paragraf"], p[title="mycket viktig text"] {
+  background-color: #ff3300;
+}
+/* 6 */
+#zebra li:nth-of-type(2n + 1) {
+  background-color: #99ccff;
+}
+/* 7 */
+#zebra li:nth-last-child(1) {
+  border: 2px solid black;
+}
+/* 8 */
+table tr:nth-of-type(3n) {
+  background-color: #ffff99;
+}
+table tr:nth-of-type(2n) {
+  background-color: #ccff66;
+}
+
+@font-face {
+  font-family: font1;
+  src: url(Prociono-Regular-webfont.woff);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(Pangolin-Regular.ttf);
+}
+
+h1 {
+  font-family: font1;
+}
+
+h3 {
+  font-family: font2;
+}
